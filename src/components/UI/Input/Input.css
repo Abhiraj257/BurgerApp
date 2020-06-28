@@ -1,0 +1,28 @@
+.InputBox {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Label {
+}
+
+.InputBox .InputField {
+  width: 100%;
+  padding: 7px 12px;
+  color: #333;
+  font-weight: 100;
+  word-spacing: 2px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  transition: all 0.2s;
+}
+
+.InputBox .InputField:focus {
+  background: #eee;
+  box-shadow: 0 1px 5px rgba(88, 177, 159, 0.5);
+}
